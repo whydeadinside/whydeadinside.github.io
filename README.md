@@ -1,1 +1,1 @@
-# whydeadinside-github.io
+# whydeadinside.github.io
