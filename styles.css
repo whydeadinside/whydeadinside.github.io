@@ -166,3 +166,372 @@ h1 {
         transform: translate(-50%, -0%) scale(1);
     }
 }
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020024;
+}
+
+.bgg {
+  position: fixed;
+  z-index: 1;
+  height: 400px;
+  width: 500px;
+  left: 50%;
+  margin-left: -255px;
+  margin-top: 10%;
+  border: 20px solid #5d1818;
+  border-top-color: #2b0909;
+  border-right-color: #3c0c0c;
+  border-left-color: #4a1010;
+}
+
+.window{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(https://images.unsplash.com/20/cold-city.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    z-index: 1;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.bgg .snowflake, .bgg .snowflake {
+  position: absolute;
+  font-size: 25px;
+  color: #fff;
+  height: 100%;
+  animation: snow infinite;
+}
+
+.snow {
+    position: absolute;
+    z-index: 2;
+    width: 459px;
+    height: 0;
+    background-color: #fff;
+    bottom: 0;
+    animation: windowSnow 10s ease-in infinite forwards;
+}
+
+.snowflake:nth-of-type(1) {
+  left: 0%;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(2) {
+  left: 10%;
+  animation-delay: 0.1s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(3) {
+  left: 20%;
+  animation-delay: 0.2s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(4) {
+  left: 30%;
+  animation-delay: 0.3s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(5) {
+  left: 40%;
+  animation-delay: 0.4s;
+  animation-duration: 3s;
+}
+
+.snowflake:nth-of-type(6) {
+  left: 10%;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(7) {
+  left: 15%;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(8) {
+  left: 20%;
+  animation-delay: 0.1s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(9) {
+  left: 25%;
+  animation-delay: 0.2s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(10) {
+  left: 30%;
+  animation-delay: 0.3s;
+  animation-duration: 3s;
+}
+
+.snowflake:nth-of-type(11) {
+  left: 35%;
+  animation-delay: 0.4s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(12) {
+  left: 40%;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(13) {
+  left: 45%;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(14) {
+  left: 50%;
+  animation-delay: 0.1s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(15) {
+  left: 55%;
+  animation-delay: 0.2s;
+  animation-duration: 3s;
+}
+
+.snowflake:nth-of-type(16) {
+  left: 60%;
+  animation-delay: 0.3s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(17) {
+  left: 65%;
+  animation-delay: 0.4s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(18) {
+  left: 70%;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(19) {
+  left: 75%;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(20) {
+  left: 80%;
+  animation-delay: 0.1s;
+  animation-duration: 3s;
+}
+
+.snowflake:nth-of-type(21) {
+  left: 85%;
+  animation-delay: 0.2s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(22) {
+  left: 90%;
+  animation-delay: 0.3s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(23) {
+  left: 95%;
+  animation-delay: 0.4s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(24) {
+  left: 5%;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(25) {
+  left: 50%;
+  animation-delay: 0s;
+  animation-duration: 3s;
+}
+
+.snowflake:nth-of-type(26) {
+  left: 60%;
+  animation-delay: 0.1s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(27) {
+  left: 70%;
+  animation-delay: 0.2s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(28) {
+  left: 80%;
+  animation-delay: 0.3s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(29) {
+  left: 90%;
+  animation-delay: 0.4s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(30) {
+  left: 95%;
+  animation-delay: 0.5s;
+  animation-duration: 3s;
+}
+
+.snowflake:nth-of-type(31) {
+  left: 7%;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(32) {
+  left: 17%;
+  animation-delay: 0.1s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(33) {
+  left: 27%;
+  animation-delay: 0.1s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(34) {
+  left: 37%;
+  animation-delay: 0.2s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(35) {
+  left: 47%;
+  animation-delay: 0.3s;
+  animation-duration: 3s;
+}
+
+.snowflake:nth-of-type(36) {
+  left: 57%;
+  animation-delay: 0.4s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(37) {
+  left: 67%;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(38) {
+  left: 77%;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(39) {
+  left: 87%;
+  animation-delay: 0.1s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(40) {
+  left: 95%;
+  animation-delay: 0.2s;
+  animation-duration: 3s;
+}
+
+.snowflake:nth-of-type(41) {
+  left: 3%;
+  animation-delay: 0.3s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(42) {
+  left: 23%;
+  animation-delay: 0.4s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(43) {
+  left: 53%;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+}
+
+.snowflake:nth-of-type(44) {
+  left: 73%;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+
+.snowflake:nth-of-type(45) {
+  left: 93%;
+  animation-delay: 0.1s;
+  animation-duration: 3s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@keyframes snow {
+  0% {transform: skewX(0deg) translateY(-3%);}
+  5% {transform: skewX(1deg) translateY(5%);}
+  10% {transform: skewX(2deg) translateY(10%);}
+  15% {transform: skewX(3deg) translateY(15%);}
+  20% {transform: skewX(4deg) translateY(20%);}
+  25% {transform: skewX(5deg) translateY(25%);}
+  30% {transform: skewX(6deg) translateY(30%);}
+  35% {transform: skewX(7deg) translateY(35%);}
+  40% {transform: skewX(8deg) translateY(40%);}
+  45% {transform: skewX(9deg) translateY(45%);}
+  50% {transform: skewX(10deg) translateY(50%);}
+  55% {transform: skewX(9deg) translateY(55%);}
+  60% {transform: skewX(8deg) translateY(60%);}
+  65% {transform: skewX(7deg) translateY(65%);}
+  70% {transform: skewX(6deg) translateY(70%);}
+  75% {transform: skewX(5deg) translateY(75%);}
+  80% {transform: skewX(4deg) translateY(80%);}
+  85% {transform: skewX(3deg) translateY(85%);}
+  90% {transform: skewX(2deg) translateY(90%);}
+  95% {transform: skewX(1deg) translateY(95%);}
+  100% {transform: skewX(0deg) translateY(97%);}
+}
+
+@keyframes windowSnow {
+  0% {height: 1px;}
+  5% {height: 3px;}
+  10% {height: 5px;}
+  15% {height: 7px;}
+  20% {height: 10px;}
+  25% {height: 15px;}
+  30% {height: 20px;}
+  35% {height: 25px;}
+  40% {height: 30px;}
+  45% {height: 35px;}
+  50% {height: 40px;}
+  70% {opacity: 0.9;}
+  75% {opacity: 0.8;}
+  80% {opacity: 0.7;}
+  85% {opacity: 0.5;}
+  90% {opacity: 0.3;}
+  95% {opacity: 0.2;}
+  100% {opacity: 0.1;}
