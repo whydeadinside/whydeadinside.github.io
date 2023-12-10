@@ -3,9 +3,9 @@ function setupCanvas(canvasId, imageSrc, translateY) {
     var ctx = canvas.getContext("2d");
 
     canvas.style.position = "absolute";
-    canvas.style.top = "50%";
-    canvas.style.left = "50%";
-    canvas.style.transform = "translate(-50%, " + translateY + ")";
+    canvas.style.top = "60%";
+    canvas.style.left = "60%";
+    canvas.style.transform = "translate(-60%, " + translateY + ")";
     canvas.style.pointerEvents = "none";
 
     var canvasWidth = 2200;
@@ -15,8 +15,8 @@ function setupCanvas(canvasId, imageSrc, translateY) {
     img.src = imageSrc;
 
     img.onload = function () {
-        var x = (canvasWidth - img.width) / 2;
-        var y = (canvasHeight - img.height) / 2;
+        var x = (canvasWidth - img.width) / 4;
+        var y = (canvasHeight - img.height) / 4;
         ctx.drawImage(img, x, y);
     };
 }
@@ -27,7 +27,7 @@ setupCanvas("canvas1", "gui.png", "-25%");
 particlesJS("particles-js", {
     particles: {
         number: {
-            value: 18,
+            value: 30,
             density: {
                 enable: true,
                 value_area: 1000
@@ -43,11 +43,11 @@ particlesJS("particles-js", {
                 color: "#000000"
             },
             polygon: {
-                nb_sides: 5
+                nb_sides: 6
             }
         },
         opacity: {
-            value: 0.2,
+            value: 0.4,
             random: false,
             anim: {
                 enable: false,
@@ -57,7 +57,7 @@ particlesJS("particles-js", {
             }
         },
         size: {
-            value: 4,
+            value: 6,
             random: true,
             anim: {
                 enable: false,
@@ -75,7 +75,7 @@ particlesJS("particles-js", {
         },
         move: {
             enable: true,
-            speed: 3,
+            speed: 6,
             direction: "none",
             random: false,
             straight: false,
@@ -83,8 +83,8 @@ particlesJS("particles-js", {
             bounce: false,
             attract: {
                 enable: false,
-                rotateX: 600,
-                rotateY: 1200
+                rotateX: 700,
+                rotateY: 1300
             }
         }
     },
@@ -103,26 +103,26 @@ particlesJS("particles-js", {
         },
         modes: {
             grab: {
-                distance: 400,
+                distance: 500,
                 line_linked: {
                     opacity: 1
                 }
             },
             bubble: {
                 distance: 400,
-                size: 40,
-                duration: 2,
-                opacity: 8,
-                speed: 3
+                size: 50,
+                duration: 4,
+                opacity: 10,
+                speed: 4
             },
             repulse: {
                 distance: 200
             },
             push: {
-                particles_nb: 4
+                particles_nb: 10
             },
             remove: {
-                particles_nb: 2
+                particles_nb: 4
             }
         }
     },
