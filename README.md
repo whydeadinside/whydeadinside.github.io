@@ -1,1 +1,1 @@
-# whydeadinside.github.io
+# richreload.github.io
